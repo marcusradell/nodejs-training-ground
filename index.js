@@ -1,5 +1,5 @@
 function getAge(birthYear, currentYear) {
-  return 30;
+  return currentYear - birthYear;
 }
 
 const age = getAge(1972, 2022);
